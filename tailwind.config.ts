@@ -62,7 +62,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				gold: '#D4AF37'
+				gold: '#D4AF37',
+				cream: '#F5F3EF',
+				beige: '#E8E4DC',
+				softBlue: '#D4E4E8'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
