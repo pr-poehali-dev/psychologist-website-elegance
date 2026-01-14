@@ -81,30 +81,30 @@ const Index = () => {
       <section className="py-16 px-6 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-gold/20 hover:shadow-lg transition-shadow">
+            <Card className="border-gold/20 hover:shadow-2xl hover:border-gold/50 hover:bg-gold/5 transition-all duration-300 cursor-pointer group">
               <CardContent className="pt-8 text-center">
-                <div className="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-gold/10 group-hover:bg-gold/20 rounded-full flex items-center justify-center mx-auto mb-4 transition-all duration-300 group-hover:scale-110">
                   <Icon name="Heart" className="text-gold" size={32} />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Эмоциональное исцеление</h3>
+                <h3 className="text-xl font-semibold mb-3 group-hover:text-gold transition-colors">Эмоциональное исцеление</h3>
                 <p className="text-muted-foreground">Преодоление боли разрыва и обретение внутренней гармонии</p>
               </CardContent>
             </Card>
-            <Card className="border-gold/20 hover:shadow-lg transition-shadow">
+            <Card className="border-gold/20 hover:shadow-2xl hover:border-gold/50 hover:bg-gold/5 transition-all duration-300 cursor-pointer group">
               <CardContent className="pt-8 text-center">
-                <div className="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-gold/10 group-hover:bg-gold/20 rounded-full flex items-center justify-center mx-auto mb-4 transition-all duration-300 group-hover:scale-110">
                   <Icon name="RefreshCcw" className="text-gold" size={32} />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Разрыв сценариев</h3>
+                <h3 className="text-xl font-semibold mb-3 group-hover:text-gold transition-colors">Разрыв сценариев</h3>
                 <p className="text-muted-foreground">Освобождение от повторяющихся деструктивных паттернов</p>
               </CardContent>
             </Card>
-            <Card className="border-gold/20 hover:shadow-lg transition-shadow">
+            <Card className="border-gold/20 hover:shadow-2xl hover:border-gold/50 hover:bg-gold/5 transition-all duration-300 cursor-pointer group">
               <CardContent className="pt-8 text-center">
-                <div className="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-gold/10 group-hover:bg-gold/20 rounded-full flex items-center justify-center mx-auto mb-4 transition-all duration-300 group-hover:scale-110">
                   <Icon name="Sparkles" className="text-gold" size={32} />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Новые отношения</h3>
+                <h3 className="text-xl font-semibold mb-3 group-hover:text-gold transition-colors">Новые отношения</h3>
                 <p className="text-muted-foreground">Построение здоровых, гармоничных и счастливых связей</p>
               </CardContent>
             </Card>
